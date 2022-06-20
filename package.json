@@ -1,0 +1,50 @@
+{
+    "name": "discord-audio-stream-bot",
+    "displayName": "Discord Audio Stream Bot",
+    "version": "1.0.0",
+    "description": "A Discord bot that streams audio from a local source",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "start": "node src/index.js",
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mrjackyliang/discord-audio-stream-bot.git"
+    },
+    "funding": {
+        "type": "github",
+        "url": "https://github.com/sponsors/mrjackyliang"
+    },
+    "keywords": [
+        "discord",
+        "discord-bot",
+        "audio",
+        "portaudio"
+    ],
+    "author": "Jacky Liang",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mrjackyliang/discord-audio-stream-bot/issues"
+    },
+    "files": [
+        "src/*.js"
+    ],
+    "homepage": "https://github.com/mrjackyliang/discord-audio-stream-bot#readme",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "dependencies": {
+        "@discordjs/opus": "^0.3.2",
+        "discord.js": "^12.3.1",
+        "dotenv": "^8.2.0",
+        "inquirer": "^7.3.3",
+        "naudiodon": "^2.2.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.21.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1"
+    }
+}
