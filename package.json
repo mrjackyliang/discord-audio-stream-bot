@@ -33,7 +33,7 @@
     ],
     "homepage": "https://github.com/mrjackyliang/discord-audio-stream-bot#readme",
     "engines": {
-        "node": ">=10.0.0"
+        "node": "18"
     },
     "dependencies": {
         "@discordjs/opus": "^0.3.2",
